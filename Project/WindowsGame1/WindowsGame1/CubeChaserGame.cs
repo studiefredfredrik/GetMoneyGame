@@ -182,7 +182,8 @@ namespace GetMoneyGame
                     //About
                 if (keyState != lastKeyboard) 
                 {
-                    if (keyState.IsKeyDown(Keys.Enter))
+                    if (keyState.IsKeyDown(Keys.Enter) && 
+                        gameTime.TotalGameTime.TotalSeconds >= 1f) // Prevents the game from going straight to 'play' if enter opened the .exe 
                     {
                         // Enter
                         if (CurrentMenuState == MainMenuState.Menu) // Main menu
