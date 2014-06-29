@@ -92,6 +92,15 @@
       <Output>C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\sfx-GameOver.xnb</Output>
       <Time>2014-06-29T14:49:04.3391478+02:00</Time>
     </Item>
+    <Item>
+      <Source>InfoSmall.spritefont</Source>
+      <Name>InfoSmall</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\InfoSmall.xnb</Output>
+      <Time>2014-06-29T15:10:06.0845839+02:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{9C1C8A3E-0042-4962-914B-A8556913F8FF}</ContentProjectGUID>

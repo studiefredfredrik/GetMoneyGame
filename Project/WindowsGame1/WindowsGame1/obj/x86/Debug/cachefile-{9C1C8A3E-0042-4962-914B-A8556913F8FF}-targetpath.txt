@@ -9,3 +9,4 @@ Content\Soundtrack_by_Fishy.wma
 Content\sfx-Start.xnb
 Content\sfx-GotCash.xnb
 Content\sfx-GameOver.xnb
+Content\InfoSmall.xnb

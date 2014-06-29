@@ -36,3 +36,4 @@ C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGam
 C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\sfx-Start.xnb
 C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\sfx-GotCash.xnb
 C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\sfx-GameOver.xnb
+C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\InfoSmall.xnb

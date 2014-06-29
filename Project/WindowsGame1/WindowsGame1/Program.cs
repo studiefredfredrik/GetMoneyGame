@@ -10,7 +10,7 @@ namespace GetMoneyGame
         /// </summary>
         static void Main(string[] args)
         {
-            using (CubeChaserGame game = new CubeChaserGame())
+            using (GetMoneyGame game = new GetMoneyGame())
             {
                 game.Run();
             }
