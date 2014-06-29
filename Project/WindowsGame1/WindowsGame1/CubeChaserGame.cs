@@ -73,8 +73,15 @@ namespace GetMoneyGame
         float TimeStarted = 0;
         float TimeElapsed = 0;
 
-        //Music
+        //Music and sfx
         bool musicIsPlaying = false;
+        Song gameMusic;
+        SoundEffect sfxStart;
+        SoundEffect sfxGotCash;
+        SoundEffect sfxGameOver;
+        SoundEffectInstance sfxStartInstance;
+        SoundEffectInstance sfxGotCashInstance;
+        SoundEffectInstance sfxGameOverInstance;
 
         // Movement
         float moveScale = 1.5f;
@@ -132,7 +139,18 @@ namespace GetMoneyGame
 
             // Game Over
             GameOver = Content.Load<Texture2D>("GameOver");
-            
+
+            // Music and SFX
+            gameMusic = Content.Load<Song>("Soundtrack_by_Fishy");
+            sfxStart = Content.Load<SoundEffect>("sfx-Start");
+            sfxGotCash = Content.Load<SoundEffect>("sfx-GotCash");
+            sfxGameOver = Content.Load<SoundEffect>("sfx-GameOver");
+            sfxStartInstance = sfxStart.CreateInstance();
+            sfxGotCashInstance = sfxGotCash.CreateInstance();
+            sfxGameOverInstance = sfxGameOver.CreateInstance();
+            sfxStartInstance.Volume = 0.1f;
+            sfxGotCashInstance.Volume = 0.1f;
+            sfxGameOverInstance.Volume = 0.1f;
         }
  
         protected override void UnloadContent()
@@ -162,17 +180,6 @@ namespace GetMoneyGame
                 this.Exit();
             }
 
-            // Testing
-            if (keyState.IsKeyDown(Keys.P))
-            {
-                CurrentGameState = GameState.Intro;
-            }
-            // Testing
-            if (keyState.IsKeyDown(Keys.O))
-            {
-                CurrentGameState = GameState.GameOver;
-            }
-
             // Main Menu
             if(CurrentGameState == GameState.MainMenu)
             {
@@ -188,7 +195,11 @@ namespace GetMoneyGame
                         // Enter
                         if (CurrentMenuState == MainMenuState.Menu) // Main menu
                         {
-                            if (MainMenuSelectedOption == MainMenuState.Play) CurrentGameState = GameState.Intro;
+                            if (MainMenuSelectedOption == MainMenuState.Play)
+                            {
+                                CurrentGameState = GameState.Intro;
+                                sfxStartInstance.Play();
+                            }
                             if (MainMenuSelectedOption == MainMenuState.HowTo) CurrentMenuState = MainMenuState.HowTo;
                             if (MainMenuSelectedOption == MainMenuState.About) CurrentMenuState = MainMenuState.About;
                             if (MainMenuSelectedOption == MainMenuState.Menu) CurrentMenuState = MainMenuState.Menu;
@@ -293,6 +304,7 @@ namespace GetMoneyGame
                 if(TimeElapsed >= 120f)
                 {
                     // Time's up, game over
+                    sfxGameOverInstance.Play();
                     CurrentGameState = GameState.GameOver;
                 }
 
@@ -381,6 +393,7 @@ namespace GetMoneyGame
                 if (cube.Bounds.Contains(camera.position) ==
                     ContainmentType.Contains)
                 {
+                    sfxGotCashInstance.Play();
                     cube.PositionCube(camera.position, 5f);
                     float thisTime = (float)gameTime.TotalGameTime.TotalSeconds;
                     float scoreTime = thisTime - lastScoreTime2;
@@ -411,10 +424,9 @@ namespace GetMoneyGame
             // Start music if not started
             if (!musicIsPlaying)
             {
-                Song song = Content.Load<Song>("get_my_money"); 
-                MediaPlayer.Play(song);
+                MediaPlayer.Play(gameMusic);
                 musicIsPlaying = true;
-                MediaPlayer.Volume = 0f;
+                MediaPlayer.Volume = 0.1f;
             }
 
             // Adjust the volume
@@ -425,6 +437,9 @@ namespace GetMoneyGame
                     if (MediaPlayer.Volume <= 0.9f)
                     {
                         MediaPlayer.Volume += 0.05f;
+                        sfxStartInstance.Volume -= 0.05f;
+                        sfxGotCashInstance.Volume -= 0.05f;
+                        sfxGameOverInstance.Volume -= 0.05f;
                     }
                 }
                 if (keyState.IsKeyDown(Keys.Subtract))
@@ -432,6 +447,9 @@ namespace GetMoneyGame
                     if (MediaPlayer.Volume >= 0.01f)
                     {
                         MediaPlayer.Volume -= 0.05f;
+                        sfxStartInstance.Volume -= 0.05f;
+                        sfxGotCashInstance.Volume -= 0.05f;
+                        sfxGameOverInstance.Volume -= 0.05f;
                     }
                 }
             }

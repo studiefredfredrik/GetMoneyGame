@@ -2,16 +2,6 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>get_my_money.mp3</Source>
-      <Name>get_my_money</Name>
-      <Importer>Mp3Importer</Importer>
-      <Processor>SongProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\get_my_money.xnb</Output>
-      <Extra>C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\get_my_money.wma</Extra>
-      <Time>2014-06-22T03:07:34.5742026+02:00</Time>
-    </Item>
-    <Item>
       <Source>5_trillion.png</Source>
       <Name>5_trillion</Name>
       <Importer>TextureImporter</Importer>
@@ -64,6 +54,43 @@
       <Options>None</Options>
       <Output>C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\MenuFont.xnb</Output>
       <Time>2014-06-28T00:49:13.4824047+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Soundtrack_by_Fishy.mp3</Source>
+      <Name>Soundtrack_by_Fishy</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Soundtrack_by_Fishy.xnb</Output>
+      <Extra>C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Soundtrack_by_Fishy.wma</Extra>
+      <Time>2014-06-29T14:24:56.837534+02:00</Time>
+    </Item>
+    <Item>
+      <Source>sfx-Start.wav</Source>
+      <Name>sfx-Start</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\sfx-Start.xnb</Output>
+      <Time>2014-06-29T14:49:04.3471489+02:00</Time>
+    </Item>
+    <Item>
+      <Source>sfx-GotCash.wav</Source>
+      <Name>sfx-GotCash</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\sfx-GotCash.xnb</Output>
+      <Time>2014-06-29T14:49:04.3431485+02:00</Time>
+    </Item>
+    <Item>
+      <Source>sfx-GameOver.wav</Source>
+      <Name>sfx-GameOver</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\sfx-GameOver.xnb</Output>
+      <Time>2014-06-29T14:49:04.3391478+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

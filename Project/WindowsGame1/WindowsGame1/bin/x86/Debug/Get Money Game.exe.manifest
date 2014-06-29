@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="Get Money Game.exe" version="1.0.0.3" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
+  <asmv1:assemblyIdentity name="Get Money Game.exe" version="1.0.0.4" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
   <description asmv2:iconFile="GMG-logo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -68,14 +68,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Get Money Game.exe" size="124928">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Get Money Game.exe" size="125440">
       <assemblyIdentity name="Get Money Game" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>bvu2lshYjMbxqCP1xA8gdduLeFU=</dsig:DigestValue>
+        <dsig:DigestValue>7VTODegrRyG7D1cImOt+VGRgzew=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -95,24 +95,6 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
       <dsig:DigestValue>HVC6QJI9eboSMw/+RwqCrVtLWSY=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="Content\get_my_money.wma" size="6268573">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>KJy7o/Yk+drA+AkshRStoPQ7724=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="Content\get_my_money.xnb" size="130">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>lUvlpRGzDbJdI39dbdUrKe8QrDg=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\GetMoneyGame-menu.xnb" size="204987">
@@ -140,6 +122,51 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
       <dsig:DigestValue>xCAKI1MShv7Yw6xf0q3193LpPE4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\sfx-GameOver.xnb" size="956173">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>VUxsPpiKTSQwYGa6tImB1APzdWI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\sfx-GotCash.xnb" size="485997">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5t/xfiA9H0wPawApoNz6dt+1ppo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\sfx-Start.xnb" size="807389">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ns1BoZcBTbag9TlTT2+oULM3qJc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Soundtrack_by_Fishy.wma" size="4774257">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>758TZjRPr9vWLl1vE5gbe+hEsI4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Soundtrack_by_Fishy.xnb" size="137">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>sqrvt60esYME8jysuMCrZ1hpQZY=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\SpriteFont1.xnb" size="38062">

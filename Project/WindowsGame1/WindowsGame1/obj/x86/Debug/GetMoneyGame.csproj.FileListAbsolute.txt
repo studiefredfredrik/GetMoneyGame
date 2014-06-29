@@ -15,14 +15,12 @@ C:\Users\studi_000\Documents\GitHub\XNA 4 tutorial\First chapter project\Windows
 C:\Users\studi_000\Documents\GitHub\XNA 4 tutorial\First chapter project\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Get Money Game.application
 C:\Users\studi_000\Documents\GitHub\XNA 4 tutorial\First chapter project\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Get Money Game.exe
 C:\Users\studi_000\Documents\GitHub\XNA 4 tutorial\First chapter project\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Get Money Game.pdb
-C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\get_my_money.xnb
 C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\5_trillion.xnb
 C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\GetMoneyGame-menu.xnb
 C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\GameOver.xnb
 C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\helpWallTexture.xnb
 C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\SpriteFont1.xnb
 C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\MenuFont.xnb
-C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\get_my_money.wma
 C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Get Money Game.exe.manifest
 C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Get Money Game.application
 C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Get Money Game.exe
@@ -33,3 +31,8 @@ C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGam
 C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\obj\x86\Debug\Get Money Game.application
 C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\obj\x86\Debug\Get Money Game.exe
 C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\obj\x86\Debug\Get Money Game.pdb
+C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Soundtrack_by_Fishy.xnb
+C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Soundtrack_by_Fishy.wma
+C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\sfx-Start.xnb
+C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\sfx-GotCash.xnb
+C:\Users\studi_000\Documents\GitHub\GetMoneyGame\Project\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\sfx-GameOver.xnb
