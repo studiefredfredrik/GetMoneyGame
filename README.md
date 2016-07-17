@@ -8,8 +8,10 @@ total score so you can take screenshots and brag about it to your friends.
 This is my first finished 3D game, made in C# with XNA 4.
 
 ## Instructions
-Compile and run, or use the installer. A separate project was created with an installer for this game:
-https://github.com/studiefredfredrik/GetMoneyGame_Installer
+1. The installer is located in the `/Publish` folder. 
+2. You should first run `XNA 4_redist.msi` to ensure you have the XNA framework installed.
+3. Then run `setup.exe` to install the game.
+4. You can now start the game by running `Get Money Game.application`
 
 ## Controls
 * Mouse to look
